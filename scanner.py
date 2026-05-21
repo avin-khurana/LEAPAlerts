@@ -607,7 +607,7 @@ def generate_scan_html(results, vix, spy_price, spy_sma200, spy_3m, run_date):
     <div style="margin-top:10px;padding-top:10px;border-top:1px solid #30363d;
          font-size:12px;color:#8b949e;line-height:1.8">
       <strong style="color:#c9d1d9">Exit rules (3M):</strong>
-      &nbsp;① Exit when option up <strong style="color:#3fb950">≥100%</strong> — don\'t wait for day 63
+      &nbsp;① Exit when option up <strong style="color:#3fb950">≥100%</strong> — don't wait for day 63
       &nbsp;② Hard exit at <strong>day 63</strong> (~{r["s3_exp"]})
       &nbsp;③ Cut if stock falls <strong style="color:#f85149">&gt;7%</strong> from entry (only scenario that loses)
     </div>''' if r.get('s3') else '<div style="color:#8b949e;font-size:13px">Chain unavailable — try next trading day</div>'}
