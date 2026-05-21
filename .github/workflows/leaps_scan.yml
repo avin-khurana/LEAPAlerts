@@ -23,7 +23,7 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install yfinance pandas numpy scipy requests
+        run: pip install -r requirements.txt
 
       - name: Run LEAPS scanner (scan only — no backtest)
         env:
