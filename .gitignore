@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated output — regenerated on each run
+leaps_scan.html
+leaps_scan_results.csv
+leaps_backtest.html
+leaps_backtest.csv
+leaps_backtest_2025.html
+leaps_backtest_2025.csv
+logs/
